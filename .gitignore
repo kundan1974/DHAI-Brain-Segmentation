@@ -1,0 +1,95 @@
+# ─── OS ────────────────────────────────────────────────────────────────
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Vim swap files
+*.swp
+
+# ─── Python ────────────────────────────────────────────────────────────
+
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Virtualenvs & environments
+env/
+venv/
+ENV/
+.build/
+.installed.cfg
+lib64/
+.site/
+
+# PyCharm / JetBrains
+.idea/
+
+# VS Code
+.vscode/
+
+# ─── Machine-Learning Artifacts ────────────────────────────────────────
+
+# TensorFlow
+# SavedModel & checkpoints
+saved_model/
+checkpoint
+# TensorBoard logs
+logs/
+tensorboard.*
+
+# PyTorch
+# Model weights & checkpoints
+*.pt
+*.pth
+# TorchScript
+*.ptc
+# ONNX exports
+*.onnx
+
+# ─── Miscellaneous ─────────────────────────────────────────────────────
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE temp files
+*.log
+*.out
+
+
+BraTS2020_Data/
+BraTS2020_Nii_Data/
+data_brainMRI_Segmentation/
+runs/
