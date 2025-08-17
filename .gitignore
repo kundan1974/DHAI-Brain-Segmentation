@@ -94,3 +94,4 @@ BraTS2020_Nii_Data/
 data_brainMRI_Segmentation/
 runs/
 derived/
+brain_mridata.zip
