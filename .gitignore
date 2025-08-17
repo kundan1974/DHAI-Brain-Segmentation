@@ -93,3 +93,4 @@ BraTS2020_Data/
 BraTS2020_Nii_Data/
 data_brainMRI_Segmentation/
 runs/
+derived/
